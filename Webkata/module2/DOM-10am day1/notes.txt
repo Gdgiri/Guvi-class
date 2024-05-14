@@ -1,0 +1,15 @@
+DOM=> Document Object Model
+
+it is use to create HTML Element in dynamically
+
+getelementby class name and tagname=> htmlcollection-array display ஆகும்
+
+query selector=> id correct-ஆ display ஆகும். அதுவே query selector-ல tagname and classname குடுத்தா அந்த div tag's-ல உள்ள முதல் tag and classname display ஆகும்.
+
+queryselectorall-> id-அ correct-அ display பன்னும் அதுவும் nodelist format array-ஆ display ஆகும்.
+
+அந்த queryselectorall-ல classname nad tagname குடுத்தா nodelist-ல array format-ஆ display ஆகும்.
+
+queryselector and queryselectorall==> found in ES6
+
+remaining are found in ES5

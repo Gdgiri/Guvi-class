@@ -1,0 +1,265 @@
+----HTML file-ல
+
+<button type="submit" onclick="fun()">Submit</button>
+
+அதுவே jsல
+
+function fun(){
+
+}
+
+இது function
+
+இப்ப இதுல என்ன சொல்ல வறேனா அதாவது முன்னாடி function-லயே functioncall பண்ணுவோம்
+
+இப்ப DOMJS-ல HTML file-ல functioncall பண்ணிட்டு js-ல function declare பண்றோம்
+
+
+=> eventlistener using create element:
+
+
+var a=document.createElement("button");
+a.setAttribute("type","button");
+a.id="btn";
+a.classList.add("btn","btn-danger");
+a.innerText="Click here";
+a.addEventListener("click",()=>{
+    alert("You click the button");
+});
+
+document.body.append(a);
+
+=> eventlistener using get element:
+
+HTML:
+
+<div class="container" id="container"> </div>
+
+    <button type="button" id="red">red</button>
+    <button type="button" id="green">green</button>
+    <button type="button" id="blue">blue</button>
+    <button type="reset" id="rest">reset</button>
+
+CSS:
+
+html,body{
+    background-color: antiquewhite;
+}
+div{
+    border:2px solid black;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    
+}
+
+#red{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+#green{
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+
+#blue{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+
+#rest{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+button{
+    margin: 60px;
+}
+
+
+
+JS:
+
+const div=document.getElementById("container");
+const red=document.getElementById("red");
+const blue=document.getElementById("blue");
+const rest=document.getElementById("rest");
+const green=document.getElementById("green");
+
+red.addEventListener("click",()=>{
+    div.style.backgroundColor="red";
+})
+
+blue.addEventListener("click",()=>{
+    div.style.backgroundColor="blue";
+})
+
+green.addEventListener("click",()=>{
+    div.style.backgroundColor="green";
+})
+
+rest.addEventListener("click",()=>{
+    div.style.backgroundColor="white";
+})
+
+=> normal function set time out method
+
+
+
+function time(){
+
+    alert("Giridharan is a good boy");
+
+}
+
+setTimeout(time,5000);
+
+
+
+=> anonyms function
+
+
+
+setTimeout(function(){
+    alert("hari");
+},5000)
+
+
+
+=> arrow function
+
+
+
+setTimeout(()=>{
+    alert("Hari and giri assembly");
+},5000)
+
+button click set time out 
+
+HTML:
+
+<button type="button" class="btn-danger" id="button" >click here</button>
+
+js:
+
+const btn=document.getElementById("button");
+btn.addEventListener("click",()=>{
+    setTimeout(()=>{
+        alert("Giri is a good boy");
+    },1000)
+})
+
+
+"start" and "end "button using set time out is "start" and clear time out is "end"
+
+HTML:
+<button type="button" class="btn-primary" id="starting" onclick="settime()">Start</button>
+  <button type="button" class="btn-danger" id="ending" onclick="endtime()">End</button>
+   
+
+CSS:
+button{
+    padding: 20px;
+    margin: 20px;
+}
+
+JS:
+
+var start=document.getElementById("starting");
+var end=document.getElementById("ending");
+
+function settime(){
+
+    start.addEventListener("click",()=>{
+        setTimeout(()=>{
+            alert("Session is started");
+            console.log("Start");
+        },1000)
+    });
+
+}
+
+function endtime(){
+    clearTimeout(ending);
+    alert("Session is ended")
+    console.log("end");
+}
+
+
+2nd type in js 
+
+let id;
+
+ function settime(){
+    id=setTimeout(()=>{
+                    alert("Session is started");
+                    console.log("Start");
+                },1000)
+ }
+
+
+ function endtime(){
+    clearTimeout(id);
+    console.log("end");
+ }
+
+ text comes inside using set time out
+ let id;
+
+ function settime(){
+    id=setTimeout(()=>{
+                    var a=document.createElement("h1");
+                    a.innerText="Session is started";
+                    a.setAttribute("class","head");
+                    document.body.append(a);
+                    console.log("Start");
+                },1000)
+ }
+
+
+ function endtime(){
+    clearTimeout(id);
+    console.log("end");
+ }
+
+ set interval:
+
+ HTML:
+
+ <h2 id="timer">0</h2>
+<button type="button" class="btn-primary" id="btn">Start</button>
+<button type="button" class="btn-danger" id="rest">Reset</button>
+
+ CSS:
+
+ button{
+    padding: 20px;
+    margin: 20px;
+}
+
+h2{
+    padding: 20px;
+    margin: 20px;
+   
+}
+
+JS:
+
+ const timer=document.getElementById("timer");
+const btn=document.getElementById("btn");
+
+let count=0;
+btn.addEventListener("click",()=>{
+    setInterval(()=>{
+        count+=1;
+       timer.textContent=count;
+    },1000)
+})
+
+
