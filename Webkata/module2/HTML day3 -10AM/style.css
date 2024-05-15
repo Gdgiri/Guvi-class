@@ -1,0 +1,90 @@
+
+@media screen and (max-width :2560px){
+
+    body{
+        background-color: black;
+    }
+    
+    div{
+        background-color: rgb(161, 164, 164);
+        text-align: center;
+        font-size: 72px;
+        border: 2px  red;
+        width: 200px;
+       
+        
+    }
+    
+    .container{
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        gap: 50px;
+        margin: 20%;
+        margin-top: 100px;
+        width: 2500px;
+        height: 1500px;
+        align-items: center;
+        
+       
+    
+    }
+    
+    .grid1{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        
+    }
+    
+    .grid11{
+        align-items: center;
+    }
+    
+    .grid20{
+        grid-column-start:3 ;
+        grid-column-end: 5;
+        background-color: #016DFA;
+        width:400px;
+        height: 150px;
+        color: white;
+    }
+    
+    input{
+        margin-top: 30px;
+        background-color: rgb(129, 121, 121);
+        width: 1000px;
+        margin-left: 50px;
+       
+    }
+    
+    .grid2{
+        color: red;
+    }
+    
+    .grid5{
+        color: blue;
+        font-weight: bold;
+    
+    }
+    
+    .grid15{
+    
+        color: blue;
+        font-weight: bold;
+    }
+    
+    .grid7{
+        color: blue;
+        font-weight: bold;
+    }
+    
+    .gridy{
+        color: blue;
+        font-weight: bold;
+    }
+    
+    
+}
+
+
+
+
