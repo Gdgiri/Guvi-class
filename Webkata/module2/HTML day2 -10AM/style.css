@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+body{
+    background-color: aliceblue;
+}
+
+nav,.about{
+    margin: 10px 20px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;justify-content: space-between;    
+    background-color: bisque;
+    border-radius: 10px;
+    color: black;
+    
+}
+.about:hover{
+    border-radius: 2px;
+    color:darksalmon;
+    text-decoration: none;
+ 
+}
+
+.about:active{
+    color: none;
+}
+
+h1{
+    margin: 10px;
+    text-align: center;
+
+}
+
+p{
+    margin: 40px;
+    text-align: justify;
+}
+
+.seemore{
+    color: blue;
+    text-decoration: none;
+}
+
+.seemore:hover{
+    text-decoration: none;
+}
