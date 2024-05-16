@@ -1,0 +1,122 @@
+
+@media screen and (min-width:320px ) {
+
+   .fl, .con{
+        color: red;
+        body::before{
+        content: "container";
+        }
+        
+    }
+}
+    
+    @media screen and (min-width:576px ) {
+
+        .fl, .s{
+            color: rgb(135, 28, 28);
+            body::before{
+            content: "SM";
+            }
+            
+        }
+        
+}
+
+@media screen and (min-width:768px ) {
+
+    .fl,  .m{
+        color: rgb(0, 17, 255);
+        body::before{
+        content: "MD";
+    }
+        
+    }
+    
+}
+
+@media screen and (min-width:992px ) {
+
+    .fl, .g{
+        color: rgb(255, 170, 0);
+        body::before{
+        content: "LG";
+        }
+        
+    }
+    
+    
+}
+
+@media screen and (min-width:1200px ) {
+
+    .fl, .l{
+        color: rgb(0, 119, 255);
+        body::before{
+        content: "XL";
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width:1200px ) {
+
+    .fl,    .xx{
+        color: rgb(251, 0, 255);
+        body::before{
+        content: "XL";
+        }
+        
+    }
+    
+}
+
+@media screen and (min-width:1400px ) {
+
+    .s{
+        color: rgb(34, 255, 0);
+        body::before{
+        content: "XXL";
+        }
+        
+        
+    }
+    
+}
+.container{
+    border: 2px solid black;
+   
+}
+
+.container-sm{
+    border: 2px solid black;
+
+}
+
+.container-md{
+    border: 2px solid black;
+
+}
+
+
+.container-lg{
+    border: 2px solid black;
+
+}
+
+.container-xl{
+    border: 2px solid black;
+
+}
+.container-xxl{
+    border: 2px solid black;
+
+}
+.container-fluid{
+    border: 2px solid black;
+
+}
+
+
+
+
