@@ -1,8 +1,8 @@
-var fname=document.getElementById("firstname");
+var fname=document.getElementById("firstname").value;
 
 console.log(fname);
 
-var btn=document.getElementById("btnt").value;
+var btn=document.getElementById("btnt");
 console.log(btn)
 
 btn.addEventListener('click',()=>{
