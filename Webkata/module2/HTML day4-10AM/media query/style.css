@@ -1,0 +1,211 @@
+@media screen and (min-width:2500px){
+html , body{
+   
+    background-color: rgb(213, 158, 158);
+    width: 2000px;
+    height: 1000px;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    
+}
+
+    h1{
+        margin: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding: 10px;
+        height: 200px;
+        background-color: rgb(185, 158, 158) ;
+        text-align: center;
+    }
+    
+    p{
+        margin: 20px;
+        padding: 10px;
+        background-color: rgb(145, 145, 182);
+        color: antiquewhite;
+    }
+    
+    h3{
+        margin: 20px;
+        height: 50px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(195, 111, 111);
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width:1440px) {
+    html , body{
+   
+        background-color: rgb(213, 158, 158);
+        
+        
+    }
+    h1{
+        margin: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding: 10px;
+        background-color: rgb(196, 85, 85) ;
+        color: white;
+        text-align: center;
+    }
+    
+    p{
+        margin: 20px;
+        padding: 10px;
+        background-color: rgb(82, 82, 180);
+        color: antiquewhite;
+    }
+    
+    h3{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(188, 69, 69);
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    html , body{
+   
+        background-color: rgb(213, 158, 158);
+        
+        
+    }
+    h1{
+        margin: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding: 10px;
+        background-color: rgb(100, 85, 196) ;
+        color: white;
+        text-align: center;
+    }
+    
+    p{
+        margin: 20px;
+        padding: 10px;
+        background-color: rgb(180, 82, 82);
+        color: antiquewhite;
+    }
+    
+    h3{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(188, 109, 69);
+        color: white;
+    }
+    
+}
+
+
+@media screen and (min-width:425px) {
+    html , body{
+   
+        background-color: rgb(213, 158, 158);
+        
+        
+    }
+    h1{
+        margin: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding: 10px;
+        background-color: rgb(154, 12, 12) ;
+        color: white;
+        text-align: center;
+    }
+    
+    p{
+        margin: 20px;
+        padding: 10px;
+        background-color: rgb(43, 43, 162);
+        color: antiquewhite;
+    }
+    
+    h3{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(200, 38, 38);
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width:375px) {
+    html , body{
+   
+        background-color: rgb(213, 158, 158);
+        
+        
+    }
+    h1{
+        margin: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding: 10px;
+        background-color: rgb(85, 148, 196) ;
+        color: white;
+        text-align: center;
+    }
+    
+    p{
+        margin: 20px;
+        padding: 10px;
+        background-color: rgb(95, 180, 82);
+        color: antiquewhite;
+    }
+    
+    h3{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(152, 69, 188);
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width:320px) {
+    html , body{
+   
+        background-color: rgb(213, 158, 158);
+        
+        
+    }
+    h1{
+        margin: 20px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding: 10px;
+        background-color: rgb(255, 3, 3) ;
+        color: white;
+        text-align: center;
+    }
+    
+    p{
+        margin: 20px;
+        padding: 10px;
+        background-color: rgb(0, 0, 255);
+        color: antiquewhite;
+    }
+    
+    h3{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(150, 2, 2);
+        color: white;
+    }
+    
+}
+

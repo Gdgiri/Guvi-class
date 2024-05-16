@@ -1,0 +1,33 @@
+.visible{
+    height: 200px;
+    border: 2px solid black;
+    overflow: visible;
+}
+
+
+.hidden{
+    height: 200px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.scroll{
+    height: 200px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+
+.auto{
+    height: 200px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+p {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight:200;
+  color:white;
+  font-style: normal;
+}
+
