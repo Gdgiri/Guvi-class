@@ -99,7 +99,7 @@ console.log("do other works until food be ready");
 
 //Hotel order
 
-/*
+
 
 console.log("Customer ordering Noodles to Waiter");
 
@@ -124,12 +124,12 @@ hotel(customer);
 
 console.log("Wait for 3 second food is be ready, Waiter said");
 
-*/
+
 
 //! app Loading
 //! it just example callback without using function
 //? students purilanu sonathaala
-
+/*
 console.log("first");
 console.log("second");
 console.log("App is started");
@@ -137,3 +137,4 @@ setTimeout(() => console.log(".....Loading"), 5000);
 setTimeout(() => console.log("app completed"), 8000);
 
 console.log("app is buildinig");
+*/
