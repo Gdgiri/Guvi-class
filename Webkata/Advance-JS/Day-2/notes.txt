@@ -1,0 +1,10 @@
+API call in fetch()
+
+let api = fetch("https://restcountries.com/v3.1/all")
+  .then((data) => data.json())
+  .then((ele) => {
+    for (let i = 0; i < ele.length; i++) {
+      console.log(ele[i].name.common);
+    }
+  })
+  .catch((error) => console.log(error));

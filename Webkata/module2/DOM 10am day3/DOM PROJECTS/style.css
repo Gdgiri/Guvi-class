@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(246, 93, 93);
+  color: white;
+}
+
+/* Main Index CSS */
+
+#color {
+  width: 800px;
+  height: 620px;
+  border: 2px solid black;
+  margin-left: 400px;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: cadetblue;
+}
+
+a {
+  text-decoration: none !important;
+  position: relative;
+  top: 50px;
+  color: white !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  position: relative;
+  top: 50px;
+  color: black !important;
+  font-size: 20px;
+}
+
+#list {
+  list-style-type: none;
+}
+
+/* TASK-1 CSS */
+
+#colors {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin-top: 200px;
+}
+
+#div {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+/* TASK-2 CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#spa {
+  width: 200px !important;
+  height: 200px !important;
+  border: 2px solid black;
+  margin-left: 41%;
+  position: relative;
+  top: 400px;
+  background-color: white;
+}
+
+#btn {
+  position: relative;
+  top: 450px;
+  left: 48%;
+  font-weight: bold;
+}
+
+#task2 {
+  text-align: center;
+}
+
+/* TASK-3 CSS */
+
+#task3head{
+    text-align: center;
+}
+
+#axis{
+  border: 5px solid white;
+  position: relative;
+  top: 50px;
+}
+
+/* TASK-4 CSS */
+
+#head{
+  text-align: center;
+}
+
+#textarea{
+  position: relative;
+  left: 500px;
+}
+
+
+#span{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  position: relative;
+  left: 500px;
+}
