@@ -1,0 +1,14 @@
+let input = document.getElementById("place");
+
+let btn = document.getElementById("see");
+
+btn.addEventListener("click", () => {
+  function response() {
+    let ben = fetch("https://ipinfo.io/json?token=64ba29c246e1bd")
+      .then((response) => response.json())
+      .then((jsonResponse) =>  console.log(jsonResponse.ip, jsonResponse.country)
+      );
+  }
+
+  response();
+});

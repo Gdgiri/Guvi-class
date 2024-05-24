@@ -64,9 +64,7 @@ response
     }
   });
 
-  let buttons= document.querySelectorAll("button");
-
-  bu
+  let buttons= document.querySelectorAll("button")
 
 //append
 
