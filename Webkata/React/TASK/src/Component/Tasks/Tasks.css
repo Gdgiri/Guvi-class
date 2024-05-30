@@ -1,0 +1,21 @@
+.disable {
+  opacity: 0.5;
+}
+
+body {
+  background-color: #127ced;
+}
+
+.btn {
+  width: 100% !important;
+  border-radius: 20px;
+}
+
+.box {
+  border-radius: 20px !important;
+  transition: zoom 5s;
+}
+
+.box:hover {
+  zoom: 103%;
+}
