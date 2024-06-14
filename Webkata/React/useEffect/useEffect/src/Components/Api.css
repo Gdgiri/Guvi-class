@@ -1,0 +1,13 @@
+.table {
+  width: 100%; /* Make the table take up the full width of its container */
+  table-layout: fixed; /* Distribute the width of each column equally */
+}
+
+.table th,
+.table td {
+  width: 20%; /* Assuming you have 5 columns, each should take up 20% of the table's width */
+  padding: 8px; /* Add some padding for better readability */
+  text-align: left; /* Align text to the left */
+  border: 1px solid black; /* Add border for clarity */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}

@@ -1,0 +1,51 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  position: relative;
+  left: 5%;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Container styles */
+div {
+  padding: 20px;
+}
+
+header {
+  padding: 1%;
+  position: relative;
+  right: 5%;
+}
+
+header a {
+  color: red;
+  text-decoration: none;
+}
