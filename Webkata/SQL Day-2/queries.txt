@@ -1,0 +1,75 @@
+create table domain(
+dom_id int primary key,
+dom_name VARCHAR(25)
+);
+
+create table batch(
+batch_id int primary key,
+batch_name VARCHAR(25)
+);
+
+create table learner(
+learner_id int primary key,
+learner_name VARCHAR(25),
+dom_id int,
+foreign key(dom_id) references domain(dom_id),
+batch_id int,
+foreign key(batch_id) references batch(batch_id)
+);
+
+create table attendence(
+attendence_id int primary key,
+learner_id int,
+foreign key(learner_id) references learner(learner_id),
+batch_id int,
+foreign key(batch_id) references batch(batch_id),
+status VARCHAR(10)
+);
+
+create table fees(
+learner_id int,
+foreign key(learner_id) references learner(learner_id),
+batch_id int,
+foreign key(batch_id) references batch(batch_id),
+fees_amt int
+);
+
+create table task(
+task_id int primary key,
+task_name VARCHAR(25),
+learner_id int,
+foreign key(learner_id) references learner(learner_id),
+batch_id int,
+foreign key(batch_id) references batch(batch_id)
+);
+
+create table leaderboard(
+leader_rank int primary key,
+learner_id int,
+foreign key(learner_id) references learner(learner_id),
+batch_id int,
+foreign key(batch_id) references batch(batch_id),
+points int
+);
+
+create table capstone(
+capstone_id int primary key,
+capstone_name VARCHAR(25),
+learner_id int,
+foreign key(learner_id) references learner(learner_id),
+batch_id int,
+foreign key(batch_id) references batch(batch_id)
+);
+
+create table mentor(
+mentor_id int primary key,
+mentor_name VARCHAR(25),
+batch_id int,
+foreign key(batch_id) references batch(batch_id)
+);
+
+create table mentorsalary(
+mentor_id int,
+foreign key(mentor_id) references mentor(mentor_id),
+mentor_salary int
+);
