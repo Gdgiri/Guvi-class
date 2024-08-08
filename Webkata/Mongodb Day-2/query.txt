@@ -1,0 +1,593 @@
+users:
+
+db.users.insertMany(
+[
+{
+'name':'giri',
+'password':'giri2001',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+},
+{
+'name':'hari',
+'password':'hari1999',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'mani',
+'password':'manigandhi001',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'kani',
+'password':'kanimozhi007',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'raja',
+'password':'Singapore.com',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'pranav',
+'password':'sanyaasi.com',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'harikrishna',
+'password':'bonda123',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'karthi',
+'password':'Mr.kk2001',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'anu',
+'password':'girl_2000',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'veda',
+'password':'girl_born_1998',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'poornaa',
+'password':'poorni_98',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'sangeetha',
+'password':'Gryffindor_girl',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'somu',
+'password':'cap_marvel_64',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'ramki',
+'password':'boy_born_2007',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'manikam',
+'password':'solamudiyaathu_po',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+},
+{
+'name':'dinesh',
+'password':'appudinaa_enna',
+'role':'student',
+'enrolled_courses':'MERN-stack'
+
+}
+
+]
+);
+
+
+codekata:
+
+db.codekata.insertMany([
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8'),
+    "problem_title": "Finding the unique elements in an array",
+    "solved": true,
+    "solved_date": ISODate("2023-08-11T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8'),
+    "problem_title": "Implementing a function to rotate an array",
+    "solved": true,
+    "solved_date": ISODate("2024-08-16T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb9'),
+    "problem_title": "Checking if a string is a palindrome",
+    "solved": false,
+    "solved_date": ISODate("2023-08-16T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb9'),
+    "problem_title": "Finding the longest substring without repeating characters",
+    "solved": true,
+    "solved_date": ISODate("2023-08-20T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bba'),
+    "problem_title": "Implementing sorting algorithms (e.g., bubble sort, merge sort, quick sort)",
+    "solved": false,
+    "solved_date": ISODate("2023-08-11T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bba'),
+    "problem_title": "Solving the Fibonacci sequence problem using recursion and iteration",
+    "solved": true,
+    "solved_date": ISODate("2023-10-16T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbb'),
+    "problem_title": "Merging two objects",
+    "solved": false,
+    "solved_date": ISODate("2023-09-16T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbc'),
+    "problem_title": "Implementing a queue using arrays",
+    "solved": true,
+    "solved_date": ISODate("2022-08-11T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbd'),
+    "problem_title": "Using promises and async/await to manage asynchronous code",
+    "solved": false,
+    "solved_date": ISODate("2020-10-11T00:00:00Z")
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8'),
+    "problem_title": "Handling DOM events (e.g., click, hover)",
+    "solved": true,
+    "solved_date": ISODate("2020-08-11T00:00:00Z")
+  }
+]);
+
+
+attendance:
+
+db.attendence.insertMany([
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb9'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bba'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "absent"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbb'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbc'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "absent"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbd'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbe'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "absent"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbf'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "absent"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bc0'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bc1'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bc2'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bc3'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bc4'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "absent"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bc5'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "absent"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bc6'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "present"
+  },
+  {
+    "user_id": ObjectId('66b41eddd41fa1b076d74bc7'),
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "status": "absent"
+  }
+]);
+
+
+
+
+topics:
+
+db.topics.insertMany([
+  {
+    'title': 'MERN Stack Architecture',
+    'description': 'Understanding how MongoDB, Express.js, React, and Node.js work together to form a full-stack JavaScript application.',
+    'taught_date': ISODate("2020-10-15T00:00:00Z")
+  },
+  {
+    'title': 'Setting Up a MERN Stack Project',
+    'description': 'Steps to create a new MERN stack application, including setting up the development environment, configuring MongoDB, and initializing Node.js and React projects.',
+    'taught_date': ISODate("2020-10-16T00:00:00Z")
+  },
+  {
+    'title': 'MERN Building RESTful APIs with Express.js',
+    'description': 'Creating, configuring, and managing RESTful APIs using Express.js, including routing, middleware, and error handling.',
+    'taught_date': ISODate("2020-10-17T00:00:00Z")
+  },
+  {
+    'title': 'Connecting React with Express.js',
+    'description': 'Integrating React frontend with Express.js backend, including making HTTP requests to APIs, handling responses, and managing state.',
+    'taught_date': ISODate("2020-10-18T00:00:00Z")
+  },
+  {
+    'title': 'Database Operations with MongoDB',
+    'description': 'Performing CRUD (Create, Read, Update, Delete) operations in MongoDB using Mongoose or native MongoDB drivers.',
+    'taught_date': ISODate("2020-10-19T00:00:00Z")
+  },
+  {
+    'title': 'Authentication and Authorization',
+    'description': 'Implementing user authentication (e.g., JWT, OAuth) and authorization in a MERN stack application, including securing routes and handling sessions.',
+    'taught_date': ISODate("2020-10-22T00:00:00Z")
+  },
+  {
+    'title': 'State Management in React',
+    'description': 'Managing application state in React using tools like Context API, Redux, or React Query.',
+    'taught_date': ISODate("2020-10-24T00:00:00Z")
+  },
+  {
+    'title': 'Deploying MERN Stack Applications',
+    'description': 'Deploying MERN stack applications to cloud services such as Heroku, AWS, or DigitalOcean, including environment variables and build processes.',
+    'taught_date': ISODate("2020-10-26T00:00:00Z")
+  },
+  {
+    'title': 'Error Handling and Logging',
+    'description': 'Implementing error handling strategies and logging in both the backend (Express.js) and frontend (React) for debugging and monitoring.',
+    'taught_date': ISODate("2020-10-30T00:00:00Z")
+  },
+  {
+    'title': 'Optimizing Performance',
+    'description': 'Techniques for optimizing the performance of MERN stack applications, including database indexing, code splitting, lazy loading, and server-side rendering (SSR).',
+    'taught_date': ISODate("2020-10-31T00:00:00Z")
+  }
+]);
+
+
+tasks:
+
+db.tasks.insertMany([
+  {
+    "title": "Create a To-Do List Application",
+    "description": "Build a full-featured to-do list app with CRUD operations. Implement user authentication to manage individual user tasks.",
+    "assigned_date": ISODate("2020-10-15T00:00:00Z"),
+    "due_date": ISODate("2020-10-16T00:00:00Z"),
+    "submitted": true,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8')
+  },
+  {
+    "title": "Develop a Blog Platform",
+    "description": "Create a blogging platform where users can create, edit, delete, and comment on posts. Include user profiles and authentication.",
+    "assigned_date": ISODate("2020-10-16T00:00:00Z"),
+    "due_date": ISODate("2020-10-18T00:00:00Z"),
+    "submitted": false,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8')
+  },
+  {
+    "title": "Create a To-Do List Application",
+    "description": "Build a full-featured to-do list app with CRUD operations. Implement user authentication to manage individual user tasks.",
+    "assigned_date": ISODate("2020-10-15T00:00:00Z"),
+    "due_date": ISODate("2020-10-16T00:00:00Z"),
+    "submitted": false,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb9')
+  },
+  {
+    "title": "Design a User Management System",
+    "description": "Develop a user management system with functionalities for user registration, login, password reset, and profile management.",
+    "assigned_date": ISODate("2020-10-15T00:00:00Z"),
+    "due_date": ISODate("2020-10-16T00:00:00Z"),
+    "submitted": true,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bba')
+  },
+  {
+    "title": "Create a To-Do List Application",
+    "description": "Build a full-featured to-do list app with CRUD operations. Implement user authentication to manage individual user tasks.",
+    "assigned_date": ISODate("2020-10-15T00:00:00Z"),
+    "due_date": ISODate("2020-10-16T00:00:00Z"),
+    "submitted": true,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bbb')
+  },
+  {
+    "title": "Build a Real-Time Chat Application",
+    "description": "Implement a chat application with real-time messaging capabilities using WebSockets or libraries like Socket.io.",
+    "assigned_date": ISODate("2020-10-20T00:00:00Z"),
+    "due_date": ISODate("2020-10-31T00:00:00Z"),
+    "submitted": true,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8')
+  },
+  {
+    "title": "Create a Task Management Dashboard",
+    "description": "Develop a task management tool with features like task assignment, progress tracking, and team collaboration.",
+    "assigned_date": ISODate("2020-10-31T00:00:00Z"),
+    "due_date": ISODate("2020-11-02T00:00:00Z"),
+    "submitted": true,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8')
+  },
+  {
+    "title": "Implement a Recipe Sharing Platform",
+    "description": "Build a platform for users to share and discover recipes. Include features like recipe ratings, comments, and user-generated content.",
+    "assigned_date": ISODate("2020-11-02T00:00:00Z"),
+    "due_date": ISODate("2020-11-10T00:00:00Z"),
+    "submitted": true,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8')
+  },
+  {
+    "title": "Construct a Movie Review Site",
+    "description": "Create a site where users can search for movies, read reviews, and rate movies. Implement user authentication for reviewing and rating.",
+    "assigned_date": ISODate("2020-11-04T00:00:00Z"),
+    "due_date": ISODate("2020-11-16T00:00:00Z"),
+    "submitted": true,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bba')
+  },
+  {
+    "title": "Build a Social Media Application",
+    "description": "Develop a basic social media app with user profiles, friend connections, posts, likes, and comments.",
+    "assigned_date": ISODate("2020-11-15T00:00:00Z"),
+    "due_date": ISODate("2020-11-29T00:00:00Z"),
+    "submitted": true,
+    "user_id": ObjectId('66b41eddd41fa1b076d74bb8')
+  }
+]);
+
+company_drivers:
+
+db.company_driver.insertMany([
+  {
+    "company_name": "Gatsby",
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "students_appeared": [
+      ObjectId('66b41eddd41fa1b076d74bb8'),
+      ObjectId('66b41eddd41fa1b076d74bb9'),
+      ObjectId('66b41eddd41fa1b076d74bba')
+    ]
+  },
+  {
+    "company_name": "Repl.it",
+    "date": ISODate("2020-10-20T00:00:00Z"),
+    "students_appeared": [
+      ObjectId('66b41eddd41fa1b076d74bb8'),
+      ObjectId('66b41eddd41fa1b076d74bb9'),
+      ObjectId('66b41eddd41fa1b076d74bba')
+    ]
+  },
+  {
+    "company_name": "CodeSandbox",
+    "date": ISODate("2020-10-31T00:00:00Z"),
+    "students_appeared": [
+      ObjectId('66b41eddd41fa1b076d74bb8'),
+      ObjectId('66b41eddd41fa1b076d74bb9'),
+      ObjectId('66b41eddd41fa1b076d74bba')
+    ]
+  }
+]);
+
+
+
+mentors:
+
+db.mentors.insertMany(
+[
+  {
+    "name": "sureshbabu",
+    "memtees": [
+      "ObjectId('66b41eddd41fa1b076d74bb9')",
+      "ObjectId('66b41eddd41fa1b076d74bba')"
+    ],
+    "batch": "FSD58WD2T"
+  },
+  {
+    "name": "rupan",
+    "memtees": [
+      "ObjectId('66b41eddd41fa1b076d74bb8')",
+      "ObjectId('66b41eddd41fa1b076d74bb9')",
+      "ObjectId('66b41eddd41fa1b076d74bbb')",
+      "ObjectId('66b41eddd41fa1b076d74bbc')",
+      "ObjectId('66b41eddd41fa1b076d74bbd')",
+      "ObjectId('66b41eddd41fa1b076d74bbe')",
+      "ObjectId('66b41eddd41fa1b076d74bbf')",
+      "ObjectId('66b41eddd41fa1b076d74bc0')",
+      "ObjectId('66b41eddd41fa1b076d74bc1')",
+      "ObjectId('66b41eddd41fa1b076d74bc2')",
+      "ObjectId('66b41eddd41fa1b076d74bc3')",
+      "ObjectId('66b41eddd41fa1b076d74bc4')",
+      "ObjectId('66b41eddd41fa1b076d74bc5')",
+      "ObjectId('66b41eddd41fa1b076d74bc6')",
+      "ObjectId('66b41eddd41fa1b076d74bc7')"
+    ],
+    "batch": "FSD58WD3T"
+  }
+]
+
+);
+
+
+questions:
+
+1. Find all the topics and tasks which are taught in the month of October
+
+query: 
+
+db.topics.find({
+  taught_date: {
+    $gte: ISODate("2020-10-01T00:00:00Z"),
+    $lt: ISODate("2020-11-01T00:00:00Z")
+  }
+}).pretty()
+
+db.tasks.find({
+  assigned_date: {
+    $gte: ISODate("2020-10-01T00:00:00Z"),
+    $lt: ISODate("2020-11-01T00:00:00Z")
+  }
+}).pretty()
+
+
+2. Find all the company drives which appeared between 15 Oct 2020 and 31 Oct 2020
+
+query:
+
+db.attendence.find({
+  date: {
+    $gte: ISODate("2020-10-15T00:00:00Z"),
+    $lt: ISODate("2020-11-01T00:00:00Z")
+  }
+}).pretty();
+
+
+3. Find all the company drives and students who appeared for the placement
+
+query:
+
+db.company_driver.aggregate([
+  {
+    $lookup: {
+      from: "users",
+      localField: "students_appeared",
+      foreignField: "_id",
+      as: "students_details"
+    }
+  }]);
+
+  4. Find the number of problems solved by the user in codekata
+
+  query:
+
+  db.codekata.aggregate([
+  { $match: { solved: true } },
+  { $group: { _id: "$user_id", solved_count: { $sum: 1 } } }
+]).pretty();
+
+
+5. Find all the mentors with mentee's count more than 15
+
+query:
+
+db.mentors.aggregate([
+ 
+  {
+    $project: {
+      name: 1,
+      mentees_count: { $size: "$mentees" }
+    }
+  },
+  
+  {
+    $match: {
+      mentees_count: { $gte: 15 }
+    }
+  }
+]).pretty();
+
+
+ {
+    "_id": ObjectId('66b44321d41fa1b076d74c05'),
+    "name": "rupan",
+    "mentees_count": 15
+  }
+
+
+
+6. Find the number of users who are absent and task is not submitted  between 15 oct-2020 and 31-oct-2020
+
+query:
+
+db.attendence.aggregate([
+  {
+    $match: {
+      status: "absent",
+      date: {
+        $gte: ISODate("2020-10-15T00:00:00Z"),
+        $lt: ISODate("2020-11-01T00:00:00Z")
+      }
+    }
+  },
+  {
+    $group: {
+      _id: "$user_id"
+    }
+  }
+])
