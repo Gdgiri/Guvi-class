@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-day-2",
+  "version": "1.0.0",
+  "description": "Day_2_Session",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "giri",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
